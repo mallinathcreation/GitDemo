@@ -29,6 +29,10 @@ public class selprac {
 			
 			System.out.println("hello git");
 			
+			System.out.println("h git");
+			
+			System.out.println("o git");
+			
 			JavascriptExecutor js = (JavascriptExecutor) driver;
 			driver.findElement(By.xpath("//span[contains(text(),'Solutions')]")).click();
 			driver.findElement(By.xpath("//a[contains(text(),'Geolocation Testing')]")).click();

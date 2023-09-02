@@ -71,6 +71,11 @@ public class selprac {
 				driver.switchTo().window(window);
 				System.out.println("a4");
 				js.executeScript("window.scrollBy(0,400)");
+				
+				System.out.println("windows2");
+				System.out.println("windows3");
+				System.out.println("windows4");
+				System.out.println("windows5");
 			}
 		}
 	}

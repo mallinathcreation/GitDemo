@@ -24,7 +24,11 @@ public class selprac {
 			driver.get("https://www.browserstack.com/");
 			String title = driver.getTitle();
 			System.out.println(title);
-
+			
+			System.out.println("hi git");
+			
+			System.out.println("hello git");
+			
 			JavascriptExecutor js = (JavascriptExecutor) driver;
 			driver.findElement(By.xpath("//span[contains(text(),'Solutions')]")).click();
 			driver.findElement(By.xpath("//a[contains(text(),'Geolocation Testing')]")).click();
